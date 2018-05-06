@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-size: 16px;
+}
+
+@import '~axe-markdown-loader/src/themes/dark.theme';
+
+.axe-markdown {
+	&__render {
+		margin-top: 1rem;
+	}
+
+	> blockquote {
+		margin: 2rem 0 0 1rem;
+		font-size: 0.875rem;
+        color: #444;
+        font-style: italic;
+		box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+		padding: 1rem;
+		border-left: 8px solid rgb(69, 211, 204);
+	}
+}
